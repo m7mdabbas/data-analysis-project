@@ -1,0 +1,15 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+fm = pd.DataFrame({'days':['saturday','sunday','monday','tuseday','wednesday','thursday','friday'],'temperature(c)' : [38,37,35,35,37,38,34],'Humidity(%)':[34,39,46,43,40,39,44],'rain(%)':[0,0,0,0,0,0,0],'wind(Km/H)':[11,13,15,13,15,15,13],'UV':[38,38,38,38,39,40,37]})
+
+#fm.head()
+#fm.shape
+#fm.index
+#fm.columns
+#fm.describe()
+#co = fm.corr(numeric_only= True) 
+#print (co)
+#plt.figure(figsize=(20,10),facecolor='gray',)
+#sns.lineplot(data=fm,markers=True,dashes=False)
